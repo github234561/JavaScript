@@ -1,0 +1,16 @@
+//making property of an object read only
+
+let car = {
+name : 'VW',
+model : '2017'
+};
+console.log(car.name);
+
+Object.defineProperty(
+car, 'name', 
+{value:'VW', 
+writable:false}
+);
+
+car.name = 'honda';
+console.log(car.name);
