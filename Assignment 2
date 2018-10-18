@@ -11,12 +11,12 @@ writable:false}
 console.log(Object.getOwnPropertyDescriptor(car, 'name'));
 
 
+
 let employee = {
   name: 'shanti',
   age : '45',
   email: 'shanti@aabb.com' 
   };
-
 console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').value);
 console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').writable);
 console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').enumerable);
