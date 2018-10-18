@@ -1,0 +1,20 @@
+//method overloading not possible in javascript
+
+let a,b,c,d;
+function add(a,b)
+{
+return a+b;
+}
+
+function add(a,b,c)
+{
+return a+b+c;
+}
+
+function add(a,b,c,d)
+{
+return a+b+c+d;
+}
+console.log(add(1,2));        //NaN
+console.log(add(1,2,3));      //NaN
+console.log(add(1,2,3,4));    //10
