@@ -1,11 +1,12 @@
 //to retrieve attributes of a property
 
-
 let employee = {
   name: 'shanti',
   age : '45',
   email: 'shanti@aabb.com' 
   };
+ 
+//to get only a particular attribute
 console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').value);
 console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').writable);
 console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').enumerable);
@@ -22,7 +23,9 @@ car, 'name',
 {value:'VW', 
 writable:false}
 );
-console.log(Object.getOwnPropertyDescriptor(car, 'name'));
+
+//to get all the attributes
+console.log(Object.getOwnPropertyDescriptor(car, 'name')); 
 
 
 
