@@ -13,10 +13,6 @@ console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').configurable);
 
 
 
-
-
-
-
 let car = {
 name : 'VW',
 model : '2017'
