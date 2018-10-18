@@ -1,4 +1,22 @@
 //to retrieve attributes of a property
+
+
+let employee = {
+  name: 'shanti',
+  age : '45',
+  email: 'shanti@aabb.com' 
+  };
+console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').value);
+console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').writable);
+console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').enumerable);
+console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').configurable);
+
+
+
+
+
+
+
 let car = {
 name : 'VW',
 model : '2017'
@@ -12,12 +30,3 @@ console.log(Object.getOwnPropertyDescriptor(car, 'name'));
 
 
 
-let employee = {
-  name: 'shanti',
-  age : '45',
-  email: 'shanti@aabb.com' 
-  };
-console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').value);
-console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').writable);
-console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').enumerable);
-console.log(Reflect.getOwnPropertyDescriptor(employee, 'name').configurable);
