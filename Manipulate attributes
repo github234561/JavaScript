@@ -1,0 +1,9 @@
+let student = {};
+
+Object.defineProperty(student, 'name', {
+  value: Gita,
+  writable: true,
+  enumerable:true,
+  configurable:true
+  });
+  console.log(Object.getOwnPropertyDescriptor(student,'name');
