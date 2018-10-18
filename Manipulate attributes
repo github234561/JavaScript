@@ -7,3 +7,9 @@ Object.defineProperty(student, 'name', {
   configurable:true
   });
   console.log(Object.getOwnPropertyDescriptor(student,'name');
+
+//attributes can be manipulated only when the configurable attribute is set to be true
+
+Object.defineProperty(student,'name', {
+ value: Gitaa
+ });
