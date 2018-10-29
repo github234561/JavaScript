@@ -1,0 +1,24 @@
+let suits= ['hearts', 'clubs', 'diamonds','spades'];
+let values = ['ace','king', 'queen', 'jack','ten', 'nine', 'eight', 'seven', 'six', 'five', 'four', 'three', 'two'];
+
+
+
+functioncreateDeck()
+   let deck = [];
+   {
+    for (let suitIdx=0; suitIdx<suits.length;suitIdx++){
+              for (let valueIdx=0; valueIdx<values.length;valueIdx++)
+              {
+              deck.push(values[valueIdx]+ 'of' + suits[suitIdx])
+              }
+    }
+return deck;
+}
+
+let deck = createDeck();
+
+for (let i=0;i<deck.length;i++){
+console.log(deck[i]);
+
+}
+
