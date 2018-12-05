@@ -1,10 +1,10 @@
-var x = 1;
-var y = 2;
+var x = 1,
+    y = 2;
 
-var add = x+y;
-var sub = x-y;
-var div = x/y;
-var mult = x*y;
+var add = x+y,
+    sub = x-y;
+    div = x/y;
+    mult = x*y;
 
 console.log("Sum is "+add);
 console.log("Difference is "+sub);
