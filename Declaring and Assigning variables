@@ -1,0 +1,12 @@
+var x = 1;
+var y = 2;
+
+var add = x+y;
+var sub = x-y;
+var div = x/y;
+var mult = x*y;
+
+console.log("Sum is "+add);
+console.log("Difference is "+sub);
+console.log("Division is "+div);
+console.log("Product is "+mult);
