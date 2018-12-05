@@ -1,0 +1,9 @@
+let sqNum = 25;
+
+function square(){
+let sqNum = 100;
+return sqNum;
+}
+
+console.log(square());
+console.log(sqNum);
