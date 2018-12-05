@@ -1,0 +1,14 @@
+let a=10,
+    b=0;
+    
+if(a){
+  console.log(a);
+  }
+
+if(a===0||a===false||a===""||a===null||a===NaN){
+  console.log("a and falsy");
+  }
+  
+if(b===0||b===false||b===""||b===null||b===NaN){
+  console.log("b and falsy");
+  }
