@@ -7,12 +7,13 @@ let student = "John",
     testScore2 = 0/0;
     
     
-console.log("Type of student: " + typeof(student));
-console.log("Type of obj: " + typeof(obj));
-console.log("Type of age: " + typeof(age));
-console.log("Type of class1: " + typeof(class1));
-console.log("Type of school: " + typeof(school));
-console.log("Type of testScore: " + typeof(testScore));
-console.log("Type of testScore2: " + typeof(testScore2));
-console.log(isNaN(testScore));
-console.log(isNaN(testScore2));
+console.log(student, "is of type " +  typeof(student));
+console.log(obj, "is of type " + typeof(obj));
+console.log(age, "is of type " + typeof(age));
+console.log(class1, "is of type " + typeof(class1));
+console.log(school, "is of type " + typeof(school));
+console.log(testScore, "is of type " + typeof(testScore));
+console.log(testScore2, "is of type " + typeof(testScore2));
+
+console.log('\n'+"value is "+ testScore,". is NaN: "+isNaN(testScore));
+console.log("value is "+ testScore2,". is NaN: "+isNaN(testScore2));
