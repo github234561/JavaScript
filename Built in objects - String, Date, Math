@@ -1,0 +1,14 @@
+//Few of the several built in objects
+
+let name = "John";
+name = name.toUpperCase();
+console.log(name);
+
+let dateIs = new Date();
+console.log(dateIs);
+
+let randNum = Math.random();
+console.log(randNum);
+let randNumPercent = Math.random() * 100;
+console.log(randNumPercent);
+
