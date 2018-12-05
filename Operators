@@ -1,0 +1,18 @@
+let x=10,
+		y=20;
+    
+let a,b,c,d,e,f;
+
+a = x+y;
+b = x-y;
+c = x/y;
+d = x*y;
+e = x%y;
+
+console.log("x+y = " +a);
+console.log("x-y = " +b);
+console.log("x/y = " +c);
+console.log("x*y = " +d);
+console.log("x%y = " +e);
+console.log("x++ = " + x++);
+console.log("++y = " + ++y);
