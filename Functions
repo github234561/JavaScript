@@ -1,0 +1,6 @@
+function text(firstLine, secondLine){
+  entireText = 'This is the text: ' + firstLine + '\n'+secondLine;
+  console.log(entireText);
+  }
+
+text('Inside a function','Second line of the function');
