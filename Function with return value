@@ -1,0 +1,7 @@
+function square(number){
+  let sqNum = number * number;
+  return sqNum;
+  }
+
+let sq = square(10);
+console.log(sq);
