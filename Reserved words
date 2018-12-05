@@ -1,0 +1,10 @@
+//Some words are reserved and can't be used as variable names. Unexpected token class error.
+
+let class = "first",
+    const = 10,
+    do = "task",
+    case = "run";
+
+console.log(class);
+console.log(const);
+ 
