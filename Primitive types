@@ -1,0 +1,18 @@
+let student = "John",
+		obj = {firstname : "Jack", lastName:"J"},
+    age = 10,
+    class1 = true,
+    school,
+    testScore = 10/0,
+    testScore2 = 0/0;
+    
+    
+console.log("Type of student: " + typeof(student));
+console.log("Type of obj: " + typeof(obj));
+console.log("Type of age: " + typeof(age));
+console.log("Type of class1: " + typeof(class1));
+console.log("Type of school: " + typeof(school));
+console.log("Type of testScore: " + typeof(testScore));
+console.log("Type of testScore2: " + typeof(testScore2));
+console.log(isNaN(testScore));
+console.log(isNaN(testScore2));
