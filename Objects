@@ -1,0 +1,9 @@
+let student = {
+  name : 'Jack',
+  age : 15,
+  schooling : true
+  };
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.schooling);
