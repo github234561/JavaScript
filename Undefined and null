@@ -1,0 +1,5 @@
+//undefined and null, we use null to intentially make a variable blank.
+let balance,
+    salaryCredit=null;
+console.log(balance,typeof(balance));
+console.log(salaryCredit,typeof(salaryCredit));
