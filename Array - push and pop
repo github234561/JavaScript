@@ -1,0 +1,14 @@
+let studentAge = [];
+let studentAge2 = [10,11,12];
+console.log("Length of array 1  is "+studentAge.length);
+console.log("Length of array 2  is "+studentAge2.length);
+
+studentAge.push(15);
+studentAge.push(16);
+console.log("\nLength of array 1 is now "+studentAge.length);
+
+let popped = studentAge2.pop();
+console.log("\nPopped value is "+popped);
+console.log("Length of array 2  is "+studentAge2.length);
+
+
