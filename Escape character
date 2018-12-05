@@ -1,0 +1,2 @@
+let sentence = 'they\'re here';
+console.log(sentence);
