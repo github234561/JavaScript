@@ -1,0 +1,5 @@
+let studentAge = [11,12,13,14,15];
+let shifting = studentAge.shift();
+console.log(shifting,"\n"+studentAge);
+studentAge.splice(1,2,17,18,19);
+console.log("\n"+studentAge);
