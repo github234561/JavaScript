@@ -1,0 +1,2 @@
+let state = true;
+console.log(state,typeof(state));
