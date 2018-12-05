@@ -1,0 +1,14 @@
+let students = [
+  {name : 'Jack',
+  age : 15,
+  schooling : true
+  },
+  {name : 'John',
+  age : 18,
+  schooling : true
+  }
+  
+];
+
+console.log(students[1].name);
+//console.log(students[2].name); --Can't read name property of undefined
