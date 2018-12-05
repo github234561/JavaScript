@@ -1,0 +1,6 @@
+//accessing elements of an array
+let studentAge = [10,11,12,13];
+console.log(studentAge[0]);
+console.log(studentAge[1]);
+console.log(studentAge[5]);
+console.log(studentAge);
