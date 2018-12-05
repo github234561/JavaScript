@@ -1,0 +1,12 @@
+let student = {
+name : 'Jack',
+age : 15,
+schooling : true
+};
+
+function newStudent(student){
+student.name = 'John';
+}
+
+newStudent(student);
+console.log(student.name);
