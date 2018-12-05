@@ -1,0 +1,7 @@
+let a;
+let b=10;
+console.log(a);
+console.log(b);
+
+//Always initialize variables before using them, or else we get them as undefined. 'a' will be undefined in this case.
+
